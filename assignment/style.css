@@ -1,16 +1,54 @@
-
-/* Align the h1 containing your name in the center of the header*/
-
-/* Add a background color to the header element */
-
-/* Add a fun background color to the main element */
-
-/* Make your p tag a different color and italic */
-
-/* Put a border around your image */
-
-/* Change the font-family of your list */
-
-/* Add a background color to the footer element */
-
-
+header {
+  /* Align the h1 containing your name in the center of the header*/
+    display: flex;
+    justify-content: center;
+  /* Add a background color to the header element */
+    background-color: #f2f2f2;
+    width: 100%;
+  }
+  /* Add a fun background color to the main element */
+  main {
+    background-color: rgba(0, 0, 0, 0.474);
+    display: flex;
+    justify-content: center;
+    padding: 20px 0;
+    width: 100%;
+  }
+  /* Make your p tag a different color and italic */
+  p {
+    color: #fff;
+    font-style: italic;
+  }
+  /* Put a border around your image */
+  img {
+    border: 1px solid #fff;
+    border-radius: 10px;
+  }
+  /* Change the font-family of your list */
+  ul {
+    list-style-type:circle;
+    padding: 40px;
+    border: #f2f2f2 solid 1px;
+    border-radius: 10px;
+    height: fit-content;
+    background-color: #f2f2f2ab;
+  }
+  /* Add a background color to the footer element */
+  footer {
+    background-color: black;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  footer div {
+    padding: 0 80px;
+  }
+  /* Extras */
+  body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: 'Roboto', sans-serif;
+    width: 100%;
+  }
